@@ -5,48 +5,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>smkn2</title>
+    <!-- animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
-
 <body>
 
+<!-- navbar -->
 <div class="container">
+    <!-- img logo navbar -->
     <div class="logo">
-        <img src="image/logofix.png" alt="logo">
-        <h1>SMKN 2 Yogyakarta</h1>
+        <img src="image/logofix.png" alt="logo" class= "animate__animated animate__tada">
+        <h1 class= "animate__animated animate__tada">SMKN 2 Yogyakarta</h1>
     </div>
 
+    <!-- list navbar -->
     <nav>
-        <a href="#home">home</a>
-        <a href="#about">about</a>
-        <a href="#facility">facility</a>
-        <a href="#gallery">gallery</a>
-        <a href="#contact">contact</a>
+        <a href="#home" class= "animate__animated animate__tada">home</a>
+        <a href="#about" class= "animate__animated animate__tada">about</a>
+        <a href="#facility" class= "animate__animated animate__tada">facility</a>
+        <a href="#gallery" class= "animate__animated animate__tada">gallery</a>
+        <a href="#contact" class= "animate__animated animate__tada">contact</a>
     </nav>
 </div>
 
+<!-- hero -->
 <div class="dashboard" id="home">
+    <!-- img hero -->
     <img src="image/logooooo.jpg" alt="smk">
 </div>
 
+<!-- about -->
 <div class="about" id="about">
     <div class="row">
+        <!-- box 1 -->
         <div class="box1">
+            <!-- logo smk -->
             <div class="logo">
-                <img src="image/logo.jpeg" alt="smk2">
+                <img src="image/logo.jpeg" alt="smk2" data-aos="fade-up-right" data-aos-duration="900">
             </div>
-        
+            
+            <!-- text smk -->
             <div class="konten">
-                <h2 align="center">About SMKN 2 YK</h2>
+                <h2 align="center" 
+                div data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
+                About SMKN 2 YK
+                </h2>
         
                 <div class="box">
                     <div class="text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, recusandae nihil! Aut sint obcaecati suscipit omnis molestiae nulla dolores consequuntur est assumenda praesentium dicta, delectus quas quaerat, rem optio iusto.</p>
+                        <p data-aos="fade-up-right" data-aos-duration="1000">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, recusandae nihil! Aut sint obcaecati suscipit omnis molestiae nulla dolores consequuntur est assumenda praesentium dicta, delectus quas quaerat, rem optio iusto.</p>
                     </div>
                 </div>
             </div>
         </div>
     
-        <div class="box2">
+        <!-- box 2 -->
+        <div class="box2" data-aos="fade-up-left" data-aos-duration="1300">
+            <!-- button -->
             <div class="k1">
                 <button><a href ="#home">home</a></button>
             </div>
@@ -70,156 +88,142 @@
     </div>
 </div>
 
+<!-- facility -->
 <div class="facility" id="facility">
-    <h2 align="center">Facility SMKN 2 YK</h2>
+    <h2 align="center"
+    div data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
+    Facility SMKN 2 YK
+    </h2>
 
-    <table border="1">
+    <!-- table facility -->
+    <table border="1" data-aos="flip-down" data-aos-duration="1000">
         <tr bgcolor="#524941">
+            <!-- keahlian -->
             <td align="center"><a href="pkeahlian.html">Program Keahlian</a></td>
             <td bgcolor="#ABAB93"></td>
+            <!-- fasilitas sekolah -->
             <td align="center"><a href="#fasilitassekolah">Fasilitas Sekolah</a></td>
         </tr>
         <tr bgcolor="#ABAB93">
             <td></td>
+            <!-- organisasi -->
             <td align="center" bgcolor="#524941"><a href="#organisasi">Organisasi</a></td>
             <td></td>
         </tr>
     </table>
 </div>
 
+<!-- gallery -->
 <div class="gallery" id="gallery">
     <div class="judul">
-        <h2>Our Gallery</h2>
+        <h2
+        div data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
+        Our Gallery
+        </h2>
     </div>
 
     <div class="konten">
+        <!-- pjs -->
         <div class="pjs">
+            <!-- info pjs -->
             <div class="text">
-                <h3 align="center"><a href="#gallery">Prinses Juliana School</a></h3>
-                <p align="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt doloremque necessitatibus eius nemo eligendi voluptatibus, fugit consectetur perferendis blanditiis sequi! Culpa modi, quod natus aspernatur esse quidem quibusdam cupiditate laborum.</p>
+                <h3 align="center" data-aos="fade-up-right" data-aos-duration="1000"><a href="#gallery">Prinses Juliana School</a></h3>
+                <p align="center" data-aos="fade-up-right" data-aos-duration="1000">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt doloremque necessitatibus eius nemo eligendi voluptatibus, fugit consectetur perferendis blanditiis sequi! Culpa modi, quod natus aspernatur esse quidem quibusdam cupiditate laborum.</p>
             </div>
-    
+            
+            <!-- img pjs -->
             <div class="gambar">
-                <img src="image/pjs.jpg" alt="ppp">
+                <img src="image/pjs.jpg" alt="ppp" data-aos="fade-up-right" data-aos-duration="1000">
             </div>
         </div>
     
+        <!-- stm -->
         <div class="stm">
+            <!-- img stm -->
             <div class="gambar">
-                <img src="image/stm.jpg" alt="ppp">
+                <img src="image/stm.jpg" alt="ppp" data-aos="fade-up-left" data-aos-duration="1100">
             </div>
     
+            <!-- info stm -->
             <div class="text">
-                <h3 align="center"><a href="#gallery">Sekolah Teknik Menengah</a></h3>
-                <p align="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt doloremque necessitatibus eius nemo eligendi voluptatibus, fugit consectetur perferendis blanditiis sequi! Culpa modi, quod natus aspernatur esse quidem quibusdam cupiditate laborum.</p>
+                <h3 align="center" data-aos="fade-up-left" data-aos-duration="1100"><a href="#gallery">Sekolah Teknik Menengah</a></h3>
+                <p align="center" data-aos="fade-up-left" data-aos-duration="1100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt doloremque necessitatibus eius nemo eligendi voluptatibus, fugit consectetur perferendis blanditiis sequi! Culpa modi, quod natus aspernatur esse quidem quibusdam cupiditate laborum.</p>
             </div>
         </div>
 
+        <!-- smk -->
         <div class="smk">
+            <!-- info smk -->
             <div class="text">
-                <h3 align="center"><a href="#gallery">Sekolah Menengah Kejuruan</a></h3>
-                <p align="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt doloremque necessitatibus eius nemo eligendi voluptatibus, fugit consectetur perferendis blanditiis sequi! Culpa modi, quod natus aspernatur esse quidem quibusdam cupiditate laborum.</p>
+                <h3 align="center" data-aos="fade-up-right" data-aos-duration="1300"><a href="#gallery">Sekolah Menengah Kejuruan</a></h3>
+                <p align="center" data-aos="fade-up-right" data-aos-duration="1300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt doloremque necessitatibus eius nemo eligendi voluptatibus, fugit consectetur perferendis blanditiis sequi! Culpa modi, quod natus aspernatur esse quidem quibusdam cupiditate laborum.</p>
             </div>
     
+            <!-- img smk -->
             <div class="gambar">
-                <img src="image/smk2.jpeg" alt="ppp">
+                <img src="image/smk2.jpeg" alt="ppp" data-aos="fade-up-right" data-aos-duration="1300">
             </div>
         </div>
     </div>
 </div>
 
+<!-- contact -->
 <div class="contact" id="contact">
     <div class="tes">
-
+        <!-- parent contact & gmaps -->
         <div class="grid">
+            <!-- contact us -->
             <div class="map">
-                <form action="#">
+                <!-- form contact us -->
+                <form action="#" data-aos="zoom-in" data-aos-duration="1000">
                     <h3>Contact Us</h3>
+                    <!-- input nama -->
                     <div class="input-field">
                         <input type="text" placeholder="enter ur name" required>
                     </div>
-    
+                    <!-- input message -->
                     <div class="input-field">
                         <input type="text" placeholder="enter ur message" required>
                     </div>
-    
+                    <!-- button send -->
                     <button type="submit">send</button>
                 </form>
             </div>
             
+            <!-- gmaps -->
             <div class="pesan">
-                <h5 align="center"><a href="https://maps.app.goo.gl/RGmH8rREj7bSqzwP8">maps</a></h5>
+                <h5 align="center" data-aos="zoom-in" data-aos-duration="1000"><a href="https://maps.app.goo.gl/RGmH8rREj7bSqzwP8">maps</a></h5>
                 <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.120293674686!2d110.36479467404943!3d-7.77706757715501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a58373fffffff%3A0xa4ec1ca156555926!2sSMK%20Negeri%202%20Yogyakarta!5e0!3m2!1sid!2sid!4v1723561864674!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.120293674686!2d110.36479467404943!3d-7.77706757715501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a58373fffffff%3A0xa4ec1ca156555926!2sSMK%20Negeri%202%20Yogyakarta!5e0!3m2!1sid!2sid!4v1723561864674!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"  data-aos="zoom-in" data-aos-duration="1200">
                 </iframe>
             </div>
         </div>
 
+        <!-- inform alamat -->
         <div class="text">
-            <h3 align="center">information</h3>
-            <p align="center" class="almt">Jl. A.M. Sangaji No.47, Cokrodiningratan, Kec. Jetis, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55233</p>
-            <p align="center" class="telp">(0274)513490</p>
+            <h3 align="center" data-aos="zoom-in" data-aos-duration="1000">information</h3>
+            <p align="center" class="almt" data-aos="zoom-in" data-aos-duration="1300">Jl. A.M. Sangaji No.47, Cokrodiningratan, Kec. Jetis, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55233</p>
+            <p align="center" class="telp" data-aos="zoom-in" data-aos-duration="1500">(0274)513490</p>
             
         </div>
     </div>
 </div>
 
+<!-- footer -->
 <div class="footer">
-    <h2><a href="#home">@dilloooo</a></h2>
+    <h2>@dilloooo</h2>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- <nav>
-        <div class="">
-            <img src="image/logo.jpeg" width="50px">
-        </div>
-       
-            <ul>
-                <li>
-                    <a href="#home">home</a></li>
-                <li>
-                    <a href="#about">about</a></li>
-                <li>
-                    <a href="#famous">famous</a></li>
-                <li>
-                    <a href="#gallery">product</a></li>
-                <li>
-                    <a href="#contact">contact</a></li>
-            </ul>
-    </nav> -->
+<script src="./js/script.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script src="https://unpkg.com/@phosphor-icons/web"></script>
 
 </body>
 </html>
-
-
-
- <!--<div class box>
-            <h1>SMKN 2 Yogyakarta</h1>
-         </div>-->
-
-
-<!-- 
-    <div class="row">
-                    <div class="image">
-                        <img src="image/logo.jpeg"></img>
-                    </div>
-                    
-                    <div class="content">
-                          <h1>smkn 2 yogyakarta</h1>
-                    </div>
-                </div> -->

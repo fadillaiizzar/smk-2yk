@@ -214,6 +214,10 @@ body{
     text-decoration: none;
 }
 
+.about .box2 button a:hover{
+    color: rgb(255, 0, 0);
+}
+
 .about .box2 .k5{
     background-color: #ABAB93;
     width: 14%;
@@ -232,7 +236,10 @@ body{
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
-
+.about .box2 .k5 button a:hover{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
 /* facility */
 
 .facility{
@@ -590,7 +597,7 @@ body{
 }
 .contact .grid .pesan h5 a:hover{
     text-decoration: none;
-    color: rgb(2, 56, 131);
+    color: rgb(181, 202, 231);
 }
 .contact .grid .pesan img{
     border-radius: 7px;
@@ -631,11 +638,11 @@ body{
     font-size: 18px;
 }
 
-.footer h2 a{
+.footer h2 {
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
-.footer h2 a:hover{
+.footer h2:hover{
     color: #3d3d38;
 }
 
